@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Parser/1.0.0": {
+        "dependencies": {
+          "Fizzler": "1.3.0",
+          "HtmlAgilityPack": "1.11.34"
+        },
+        "runtime": {
+          "Parser.dll": {}
+        }
+      },
+      "Fizzler/1.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/Fizzler.dll": {
+            "assemblyVersion": "1.3.0.0",
+            "fileVersion": "1.3.0.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.34": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.34.0",
+            "fileVersion": "1.11.34.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Parser/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fizzler/1.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B5FdOC8YrFU6nUYnxF1UcGrt2dMBVaf9tnbiG/PD2gB8FyuoZj0WSGr7+OxdrjreyYu7L2pgPYpbNMFkot2otw==",
+      "path": "fizzler/1.3.0",
+      "hashPath": "fizzler.1.3.0.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LJyKMPuQVRi68RnPRmptSSJa1r3adpIfII/tfyMkismDhgmdS0i2ruOGF3Y7Ocxt4IfnhG76BNIa4dzMfR+KYw==",
+      "path": "htmlagilitypack/1.11.34",
+      "hashPath": "htmlagilitypack.1.11.34.nupkg.sha512"
+    }
+  }
+}
